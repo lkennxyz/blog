@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import linkedin from '../img/linkedin-icon.svg'
+import twitter from '../img/twitter-icon.svg'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -30,14 +31,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            <Link to="/" className="navbar-item brand" title="Logo">
+                <h1>->home/lkennxyz/blog</h1>
             </Link>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">
@@ -51,28 +52,39 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+                href="https://github.com/lkennxyz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
                   <img src={github} alt="Github" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.linkedin.com/in/lkennxyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={linkedin} alt="linkedIn" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://twitter.com/lkennxyz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={twitter} alt="twitter" />
                 </span>
               </a>
             </div>
