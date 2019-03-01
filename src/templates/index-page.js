@@ -21,7 +21,7 @@ export default class IndexPage extends React.Component {
                     padding: '1rem',
                   }}
                 >
-                  Latest Stories
+                  Thinking About Things
                 </h1>
               </div>
             </div>

@@ -24,7 +24,7 @@ So without further ado, here is a list of my favourite extensions that I use and
 * [Bracket Pair Coloriser - CoenraadS](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2):
   One of the first things I noticed when I moved away from C# to Javascript were how many levels of brackets and braces there were, and to start with I often lost track. This extension makes it easy to see the pairs, so you can quickly see if you are missing one.
 * [EditorConfig for VS Code - EditorConfig](https://github.com/editorconfig/editorconfig-vscode): 
-  If you’re like me and sometimes find yourself developing between different machines, keeping consistent about things like indentation can be a pain when one editor wants to use tabs and another 2 spaces. EdirtorConfig and the VS code extension simplify this for you.
+  If you’re like me and sometimes find yourself developing between different machines, keeping consistent about things like indentation can be a pain when one editor wants to use tabs and another 2 spaces. EditorConfig and the VS code extension simplify this for you.
 * [ESLint - Microsoft]([https://github.com/Microsoft/vscode-eslint):
   ESLint is the Linter of choice for most Javascript devs, and this extension lint on the fly and highlights problems for you. Can’t ask for much more than that really can you?
 * [Indenticator - SirTori](https://github.com/SirTori/indenticator):
