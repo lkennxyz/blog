@@ -12,6 +12,7 @@ tags:
 After spending most of my time developing Javascript in vim inside a shell, I decided maybe the additional features provided by a more graphical text editor would be worth a try, and after a short jaunt into the world of emacs and spacemacs, I decided that the juggernaut that VS Code has become in the world of Javascript might be worth a go.
 ![](/img/blur-business-close-up-270557.jpg)
 
+##
 
 Having spent a lot of time as a C# dev, I was hesitant to use anything with the Visual Studio name, as I find time and time again that it is a bloated resource hog. However, after spending some time in VS Code, I ended up loving it once I had installed a bunch of extensions.
 
