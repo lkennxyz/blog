@@ -3,13 +3,15 @@ templateKey: blog-post
 title: My VS Code setup
 date: 2019-03-01T11:55:18.947Z
 description: >-
-  I've tried a few different IDEs and text editors, but lately I've been all in
-  on VS Code.
+  After spending most of my time developing Javascript in vim inside a shell, I
+  decided maybe the additional features provided by a more graphical text editor
+  would be worth a try, and after a short jaunt into the world of emacs and
+  spacemacs, I decided that the juggernaut that VS Code has become in the world
+  of Javascript might be worth a go.
 tags:
   - vscode
   - javascript
 ---
-After spending most of my time developing Javascript in vim inside a shell, I decided maybe the additional features provided by a more graphical text editor would be worth a try, and after a short jaunt into the world of emacs and spacemacs, I decided that the juggernaut that VS Code has become in the world of Javascript might be worth a go.
 ![](/img/blur-business-close-up-270557.jpg)
 
 ##
