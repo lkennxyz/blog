@@ -8,6 +8,9 @@ description: >-
   would be worth a try, and after a short jaunt into the world of emacs and
   spacemacs, I decided that the juggernaut that VS Code has become in the world
   of Javascript might be worth a go.
+tags: 
+  - vscode
+  - javascript
 ---
 ![](/img/blur-business-close-up-270557.jpg)
 
