@@ -9,7 +9,7 @@ description: >-
   great machine, I wanted to take the opportunity to replace it. I considered a
   new MacBook Pro, but considering that a similarly specced machine to my old
   one was £750 more than I paid for the original and I wanted to upgrade the RAM
-  and storage, I decided to look into other options, and landed on getting a
+  and storage I decided to look into other options, and landed on getting a
   Certified Refurbished 2018 MacBook Air. 
 tags:
   - Mac
