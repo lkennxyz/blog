@@ -1,5 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import github from '../img/github-icon.svg'
 import linkedin from '../img/linkedin-icon.svg'
 import twitter from '../img/twitter-icon.svg'
@@ -35,7 +37,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container nav-container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item brand" title="Logo">
                 <h1>->home/kenn/blog</h1>
@@ -48,7 +50,7 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div id="navMenu" className="navbar-menu">
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-start">
               <Link className="navbar-item" to="/about">
                 About
               </Link>
@@ -56,36 +58,30 @@ const Navbar = class extends React.Component {
                 Contact
               </Link>
             </div>
-            <div className="navbar-end has-text-centered">
+            <div className="navbar-end">
               <a
-                className="navbar-item"
+                className="navbar-item navbar-icon"
                 href="https://github.com/lkennxyz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
+                <FontAwesomeIcon icon={faGithub}/>
               </a>
               <a
-                className="navbar-item"
+                className="navbar-item navbar-icon"
                 href="https://www.linkedin.com/in/lkennxyz/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
-                  <img src={linkedin} alt="linkedIn" />
-                </span>
+                <FontAwesomeIcon icon={faLinkedin}/>
               </a>
               <a
-                className="navbar-item"
+                className="navbar-item navbar-icon"
                 href="https://twitter.com/lkennxyz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
-                  <img src={twitter} alt="twitter" />
-                </span>
+                <FontAwesomeIcon icon={faTwitter}/>
               </a>
             </div>
           </div>

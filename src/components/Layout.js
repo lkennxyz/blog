@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-import './all.sass'
+import './all.scss'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => (
       }
     `}
     render={data => (
-      <div>
+      <div className="layout">
         <Helmet>
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
@@ -60,7 +60,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
         <Navbar />
-        <div>{children}</div>
+        <div className="body-content">{children}</div>
         <Footer />
       </div>
     )}
