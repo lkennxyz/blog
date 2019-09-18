@@ -2,9 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import github from '../img/github-icon.svg'
-import linkedin from '../img/linkedin-icon.svg'
-import twitter from '../img/twitter-icon.svg'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -42,48 +39,40 @@ const Navbar = class extends React.Component {
             <Link to="/" className="navbar-item brand" title="Logo">
                 <h1>->home/kenn/blog</h1>
             </Link>
-            {/* Hamburger menu */}
-            <div className="navbar-burger burger" data-target="navMenu">
-              <span />
-              <span />
-              <span />
-            </div>
           </div>
-          <div id="navMenu" className="navbar-menu">
-            <div className="navbar-start">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-            </div>
-            <div className="navbar-end">
-              <a
-                className="navbar-item navbar-icon"
-                href="https://github.com/lkennxyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faGithub}/>
-              </a>
-              <a
-                className="navbar-item navbar-icon"
-                href="https://www.linkedin.com/in/lkennxyz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faLinkedin}/>
-              </a>
-              <a
-                className="navbar-item navbar-icon"
-                href="https://twitter.com/lkennxyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faTwitter}/>
-              </a>
-            </div>
+          <div className="navbar-menu">
+            <Link className="navbar-item" to="/about">
+              About
+            </Link>
+            <Link className="navbar-item" to="/contact">
+              Contact
+            </Link>
+          </div>
+          <div className="navbar-social">
+            <a
+              className="navbar-item navbar-icon"
+              href="https://github.com/lkennxyz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub}/>
+            </a>
+            <a
+              className="navbar-item navbar-icon"
+              href="https://www.linkedin.com/in/lkennxyz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin}/>
+            </a>
+            <a
+              className="navbar-item navbar-icon"
+              href="https://twitter.com/lkennxyz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter}/>
+            </a>
           </div>
         </div>
       </nav>
