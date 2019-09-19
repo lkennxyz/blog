@@ -13,19 +13,13 @@ export default class IndexPage extends React.Component {
             <div className="content">
               <div>
                 <h1
-                  className="has-text-weight-bold is-size-1"
-                  style={{
-                    boxShadow: '0.5rem 0 0 #1E88E5, -0.5rem 0 0 #1E88E5',
-                    backgroundColor: '#1E88E5',
-                    color: 'white',
-                    padding: '1rem',
-                  }}
+                  className="page-title"
                 >
                   Thinking About Things
                 </h1>
               </div>
+              <BlogRoll />
             </div>
-            <BlogRoll />
           </div>
         </section>
       </Layout>
