@@ -16,13 +16,13 @@ class BlogRoll extends React.Component {
               className="article"
               key={post.id}
             >
-            <article className="tile is-child box notification">
+            <article className="tile">
               <p>
-                <Link className="title has-text-primary is-size-4" to={post.fields.slug}>
-                  {post.frontmatter.title}
+                <Link className="title" to={post.fields.slug}>
+                    {post.frontmatter.title}
                 </Link>
                 <span> &bull; </span>
-                <span className="subtitle is-size-5 is-block">{post.frontmatter.date}</span>
+                <span className="date">{post.frontmatter.date}</span>
               </p>
               <p>
                 {post.frontmatter.description}
